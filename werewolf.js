@@ -1,5 +1,5 @@
 var name =''
-var role ='Penyihir'
+var role =''
 var welcome= 'Selamat datang di Dunia Proxytia, '+ name +'.'
 var descksatria = '\n Halo Ksatria '+ name +', kamu dapat menyerang dengan senjatamu!'
 var desctabib ='\n Halo Tabib ' + name +', kamu akan membantu temanmu yang terluka.'
