@@ -1,8 +1,8 @@
 var tanggal = 4
-var bulan = 2
+var bulan = 13
 var tahun = 2000
-
-switch (bulan){
+if(bulan <13){
+  switch (bulan){
   case 1:
   bulan = 'Januari';
   break;
@@ -39,7 +39,9 @@ switch (bulan){
   case 12:
   bulan ='Desember';
   break;}
-
+}else{
+  bulan ='bulan salah'
+}
 if ( tanggal <32 && tahun <=2200){
   console.log( tanggal +' '+ bulan +' '+ tahun)
 }else{
